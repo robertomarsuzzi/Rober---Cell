@@ -1,0 +1,153 @@
+.presentacion{
+    display: flex;
+    font-family: serif;
+    font-size: x-large;
+    background-color: #8501b3;
+    padding: 30px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #8501b3;
+    align-items: center;
+    max-height: 20px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 10px; 
+    padding: 30px;
+    background-color: #85f79b;
+    border: solid #000 ;
+}
+
+.titulo_principal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    align-self: center;
+    text-shadow: #000 2px 2px 3px;
+    
+}
+
+.numerocel{
+    display: flex;
+    background-color: #fffbe7; /* Color de fondo */
+    color: #8501b3; /* Color del texto */
+    padding: 2px; /* Espaciado entre el texto y los bordes */
+    border: none; /* Eliminar borde */
+    border-radius: 5px; /* Redondear los bordes */
+    cursor: pointer; /* Cambiar el cursor en forma de mano */
+}
+
+.numerocel:hover{
+    background-color: aqua;
+}
+
+.direccion{
+    display: flex;
+    background-color: #fffbe7; /* Color de fondo */
+    color: #8501b3; /* Color del texto */
+    padding: 2px; /* Espaciado entre el texto y los bordes */
+    border: none; /* Eliminar borde */
+    border-radius: 5px; /* Redondear los bordes */
+    cursor: pointer; /* Cambiar el cursor en forma de mano */
+}
+
+.direccion:hover{
+    background-color: aqua;
+}
+
+.contenido_principal{
+    
+    font-size: 150%;
+    width: 100%;
+}
+
+.servicios{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px black;
+    
+    margin: 10px;
+    padding: 30px;
+    border: solid #000;
+    background-color: #85f79b;
+    text-align: center;
+    
+}
+
+
+.item:first-child{
+    grid-column: 1/4;
+    justify-self: center;
+}
+
+
+.general{
+    display:grid;
+
+
+}
+
+.wap{
+    height: 70px;
+    width: 70px;
+}
+
+.maps{
+    height: 70px;
+    width: 70px;
+}
+
+.redes{
+    display: flex ;
+    flex-direction: column;
+    background: linear-gradient(#3B5998,#E1306C);
+    margin: 10px;
+    align-content: center;
+    border: solid 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    align-self: center;
+    padding-bottom: 10px;
+    
+
+}
+
+.rsociales{
+    height: 50px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+    align-self: center;
+    text-shadow: #000 2px 2px 3px;
+}
+
+.face{
+    margin-top: 10px;
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    align-self: center;
+    text-shadow: #000 2px 2px 3px;
+}
+
+
+
+.insta{
+    align-self: center;
+
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    text-shadow: #000 2px 2px 3px;
+}
